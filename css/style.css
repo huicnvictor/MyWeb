@@ -6,7 +6,7 @@
 
 /* Custom Properties: can be updated */
 :root {
-    --ff-primary  : 'Gowun Batang', serif;
+    --ff-primary  : 'PT', serif;
     --ff-secondary: 'Playfair Display', serif;
 
     --fw-reg : 300;
@@ -114,6 +114,10 @@ h3 {
 .section-title-intro {
     font-weight: var(--fw-reg);
 }
+.section-title-intro div{
+    font-size: var(--fs-h3);
+margin-top: 1em;
+}
 
 .section-title-intro strong {
     display: block;
@@ -139,7 +143,7 @@ header {
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 200px;
 }
 
 .nav {
@@ -180,13 +184,13 @@ header {
 }
 
 .nav-toggle {
-    padding   : .5em;
+    padding   : 0.6em;
     background: transparent;
     border    : 0;
     cursor    : pointer;
     position  : absolute;
     right     : 1em;
-    top       : 1em;
+    top       : 2.4em;
     z-index   : 1000;
 }
 .nav-open .nav{
